@@ -18,24 +18,45 @@ This is a web application for fetching information from github APIs,  in this ap
 Note: Following scripts should be run from inside the backend folder.
 
 ```bash
-  npm run client: to install client dependencies
+  npm run client
 ```
 
 ```bash
-  npm i: to install backend dependencies
+  npm i
 ```
 
 ```bash
-  npm run dev: to start both client and backend server simultaneously.
+  npm run dev
 ```
 
 ```bash
-  npm run server: to start only backend server with nodemon.
+  npm run server
 ```
 
 ```bash
-  npm run start: to start only backend server without nodemon.
+  npm run start
 ```
+
+
+## Scripts Description
+
+  **npm run client**: to install client dependencies
+
+
+
+  **npm i**: to install backend dependencies
+
+
+
+  **npm run dev**: to start both client and backend server simultaneously.
+
+
+
+  **npm run server**: to start only backend server with nodemon.
+
+
+
+  **npm run start**: to start only backend server without nodemon.
 
 
 ## Environment Variables
@@ -44,7 +65,22 @@ To run this project, you will need to add the following environment variables to
 
 `DATABASE_URL`
 
-DATABASE_URL will be a mongoDB URI which is required to connect the application with the mongo DB database.
+DATABASE_URL will be a MongoDB URI which is required to connect the application with the MongoDB database.
 
 
+
+
+## Screenshots
+
+**Home Screen**
+
+![App Screenshot](https://github.com/akashdohare1x/github-assignment/blob/main/client/images/Home.png?raw=true)
+
+**Search Repositories Screen**
+
+![App Screenshot](https://github.com/akashdohare1x/github-assignment/blob/main/client/images/searchRepo.png?raw=true)
+
+**Search User Details Screen**
+
+![App Screenshot](https://github.com/akashdohare1x/github-assignment/blob/main/client/images/userDetails.png?raw=true)
 
